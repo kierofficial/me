@@ -1,2 +1,43 @@
-# me
-I'm Khier, and I'm passionate about developing innovative programs that boost the efficiency and effectiveness of organizational success.
+# Hi this is my Portfolio
+
+This template should help get you started your own Portfolio
+
+## Project Setup
+
+```sh
+npm install
+```
+or
+```sh
+yarn install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+or
+```sh
+yarn run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+or
+```sh
+yarn run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
+or
+```sh
+yarn run lint
+```
