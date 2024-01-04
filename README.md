@@ -1,7 +1,3 @@
-# Hi this is my Portfolio
-
-This template should help get you started your own Portfolio
-
 ## Project Setup
 
 ```sh
