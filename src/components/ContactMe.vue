@@ -13,9 +13,7 @@
         data-aos="fade-right"
         data-aos-duration="500"
       >
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+        I'm currently open to exciting new opportunities! Whether you have a question, a potential project, or just want to connect, my inbox is always open. I'd love to hear from you and explore how we might work together.
       </h4>
     </div>
     <div
