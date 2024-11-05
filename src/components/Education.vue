@@ -20,9 +20,9 @@
             :icon="['fas', 'certificate']"
         /></span>
         <h2 class="text-sm dark:text-white">
-          React - Udemy
+          Vue - Udemy
         </h2>
-        <span class="text-xs f-gray"> Feb 2022</span>
+        <span class="text-xs f-gray"> Jun 2022</span>
       </li>
     </ul>
     <ul class="journey flex flex-col w-12 lg:w-5 items-center">
@@ -39,9 +39,9 @@
             :icon="['fas', 'certificate']"
         /></span>
         <h2 class="text-sm dark:text-white">
-          Vue - Udemy
+          React - Udemy
         </h2>
-        <span class="text-xs f-gray"> Jun 2022</span>
+        <span class="text-xs f-gray"> Feb 2022</span>
       </li>
       <li></li>
     </ul>

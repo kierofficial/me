@@ -25,9 +25,8 @@
         data-aos-delay="800"
         data-aos-duration="500"
       >
-        I'm an experienced software developer with a passion for developing innovative programs. 
-        Well-versed in technology and able to write code to construct dependable and user-friendly solutions. 
-        Highly skilled in JavaScript(React/VueJS)
+        I'm a seasoned software developer driven by the art of crafting innovative, impactful solutions. With a deep fluency in modern tech stacks, I specialize in creating responsive, user-friendly applications that solve real-world problems. 
+        Skilled in JavaScript (React/VueJS), I bring both reliability and creativity to every project.
       </h5>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
@@ -44,10 +43,10 @@
     <div class="profile-image lg:w-2/6 flex hidden md:flex md:m-auto md:pt-16">
       <img
         data-aos="zoom-in-right"
-        data-aos-delay="1700"
-        data-aos-duration="800"
+        data-aos-delay="500"
+        data-aos-duration="500"
         class="m-auto clipped light imedium img-center md:w-auto"
-        src="https://drive.google.com/uc?id=1hnbxNrPhcr3DyGbfDPNFAlxCgduzoVfR"
+        src="../assets/img/me-dark.jpg"
         alt=""
         width="500"
       />

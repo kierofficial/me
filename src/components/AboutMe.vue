@@ -20,7 +20,7 @@
       >
         <img
           class="w-11/12 rounded-md drop-shadow-lg m-auto lg:m-0"
-          src="https://drive.google.com/uc?id=1AjEGfM7DooBCH2Bo3ZzlpjnBAgMG_IaC"
+          src="../assets/img/me-2.jpg"
           alt=""
         />
       </div>
@@ -40,7 +40,7 @@
         >
           <div class="years-exp mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              3+
+              5+
             </h2>
             <span class="text-sm f-gray dark:text-white"
               >Years of Experience</span
@@ -48,7 +48,7 @@
           </div>
           <div class="projects mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              5+
+              8+
             </h2>
             <span class="text-sm f-gray dark:text-white"
               >Completed projects</span
@@ -56,7 +56,7 @@
           </div>
           <div class="companies-worked mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              1+
+              2+
             </h2>
             <span class="text-sm f-gray dark:text-white">Companies Worked</span>
           </div>

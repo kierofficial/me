@@ -24,7 +24,7 @@
           <div class="flex flex-col">
             <h2 class="text-xl dark:text-white">Frontend Developer</h2>
             <span class="text-sm f-gray dark:text-white"
-              >More than 3 years</span
+              >More than 5 years</span
             >
           </div>
         </h2>
@@ -127,7 +127,7 @@
           <div class="flex flex-col">
             <h2 class="text-xl dark:text-white">Backend Developer</h2>
             <span class="text-sm f-gray dark:text-white"
-              >More than 2 years</span
+              >More than 4 years</span
             >
           </div>
         </h2>
@@ -138,7 +138,7 @@
             <img
               src="https://www.freepnglogos.com/uploads/javascript-png/javascript-nodejs-logo-27.png"
               class="h-14"
-              alt="CodeIgniter"
+              alt="Node"
             />
             <span class="dark:text-white">Node.js</span>
           </div>
@@ -146,15 +146,23 @@
             <img
               src="https://www.freepnglogos.com/uploads/javascript-png/javascript-nodejs-logo-27.png"
               class="h-14"
-              alt="CodeIgniter"
+              alt="Express"
             />
             <span class="dark:text-white">Express.js</span>
           </div>
           <div class="p-1 card-mini">
             <img
-              src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-part-azure-sql-database-with-azure-active-directory-17.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
               class="h-14"
               alt="PHP"
+            />
+            <span class="dark:text-white">PHP</span>
+          </div>
+          <div class="p-1 card-mini">
+            <img
+              src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-part-azure-sql-database-with-azure-active-directory-17.png"
+              class="h-14"
+              alt="NoSQL"
             />
             <span class="dark:text-white">NoSQL</span>
           </div>
