@@ -61,7 +61,7 @@
             <span class="text-sm f-gray dark:text-white">Companies Worked</span>
           </div>
         </div>
-        <div class="resume pt-10">
+        <!-- <div class="resume pt-10">
           <button class="btn-accent flex items-center m-auto lg:m-0">
             <a
               href="https://drive.google.com/file/d/1PgIqcz8aJwTYVEWaqWzzKO5NSX8caim8/view?usp=sharing"
@@ -75,7 +75,7 @@
               /></span>
             </a>
           </button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

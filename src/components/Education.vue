@@ -8,9 +8,9 @@
             :icon="['fas', 'medal']"
         /></span>
         <h2 class="text-sm dark:text-white">
-          Bachelor of Science in Computer Engineering - Pamantasan ng Cabuyao - Laguna
+          Vue - Udemy
         </h2>
-        <span class="text-xs f-gray"> 2013 – 2019</span>
+        <span class="text-xs f-gray"> Jun 2022</span>
       </li>
       <li></li>
       <li class="pr-10">
@@ -20,9 +20,9 @@
             :icon="['fas', 'certificate']"
         /></span>
         <h2 class="text-sm dark:text-white">
-          Vue - Udemy
+          Bachelor of Science in Computer Engineering - Pamantasan ng Cabuyao - Laguna
         </h2>
-        <span class="text-xs f-gray"> Jun 2022</span>
+        <span class="text-xs f-gray"> 2013 – 2019</span>
       </li>
     </ul>
     <ul class="journey flex flex-col w-12 lg:w-5 items-center">

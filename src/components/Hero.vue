@@ -12,12 +12,12 @@
         Khier de Leon.
       </h2>
       <h4
-        class="text-lg pb-2 f-gray dark:text-white duration-1000"
+        class="text-lg pb-2 f-dark-blue font-extrabold dark:text-blue-500 duration-1000"
         data-aos="fade-right"
         data-aos-delay="700"
         data-aos-duration="500"
       >
-        Software Developer
+        Software Engineer
       </h4>
       <h5
         class="text-sm pb-12 f-gray dark:text-white duration-1000"
@@ -25,8 +25,7 @@
         data-aos-delay="800"
         data-aos-duration="500"
       >
-        I'm a seasoned software developer driven by the art of crafting innovative, impactful solutions. With a deep fluency in modern tech stacks, I specialize in creating responsive, user-friendly applications that solve real-world problems. 
-        Skilled in JavaScript (React/VueJS), I bring both reliability and creativity to every project.
+        I'm a seasoned full-stack software developer passionate about crafting innovative, impactful solutions. Fluent in modern tech stacks, I specialize in building responsive, user-friendly applications that address real-world needs. With strong skills in JavaScript (React/VueJS) on the front end and extensive backend experience in Express and PHP, I bring both reliability and creativity to every project.
       </h5>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
