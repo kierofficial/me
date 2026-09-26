@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl m-center pt-48">
+  <div class="max-w-7xl m-center pt-48 pb-20">
     <div
       class="skills text-center mt-10"
       data-aos="fade-up"
@@ -9,226 +9,161 @@
       <h2 class="text-5xl dark:text-white">Skills</h2>
       <span class="f-gray text-sm dark:text-white">My Technical Level</span>
     </div>
-    <div class="skill-details flex mt-20 flex-col lg:flex-row lg:gap-10">
+    <div
+      class="skill-details grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-20"
+    >
       <div
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-delay="200"
-        class="lg:w-1/3 md:w-96 md:m-auto md:mb-16 card bg-white drop-shadow-2xl dark:bg-slate-800"
+        v-for="(group, index) in groups"
+        :key="group.title"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        :data-aos-delay="100 + index * 100"
+        class="card bg-white drop-shadow-2xl dark:bg-slate-800 flex flex-col"
       >
-        <h2 class="pt-7 pl-5 flex items-center">
+        <h2 class="pt-6 px-5 pb-4 flex items-center gap-3">
           <font-awesome-icon
-            class="fa-2xl pr-3 f-blue w-20"
-            :icon="['fas', 'code']"
+            class="text-2xl f-blue"
+            :icon="['fas', group.fa]"
           />
-          <div class="flex flex-col">
-            <h2 class="text-xl dark:text-white">Frontend Developer</h2>
-            <span class="text-sm f-gray dark:text-white"
-              >More than 5 years</span
-            >
-          </div>
+          <h3
+            class="text-lg font-extrabold dark:text-white leading-tight"
+            :title="group.title"
+          >
+            {{ group.title }}
+          </h3>
         </h2>
         <div
-          class="description grid grid-cols-4 gap-4 m-auto lg:px-10 px-5 pt-10"
+          class="description grid grid-cols-2 gap-3 m-auto w-full px-5 pb-6"
         >
-          <div class="p-1 card-mini">
-            <img
-              src="https://seeklogo.com/images/V/vuejs-logo-17D586B587-seeklogo.com.png"
-              class="h-14"
-              alt="VUEJS"
-            />
-            <span class="dark:text-white">VueJs</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://www.logo.wine/a/logo/React_(web_framework)/React_(web_framework)-Logo.wine.svg"
-              class="h-14"
-              alt="ReactJs"
-            />
-            <span class="dark:text-white">ReactJs</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433"
-              class="h-14"
-              alt="JavaScript"
-            />
-            <span class="dark:text-white">JavaScript</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20210506173343"
-              class="h-14"
-              alt="TypeScript"
-            />
-            <span class="dark:text-white">TypeScript</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuxt_logo.svg/512px-Nuxt_logo.svg.png?20201218211241"
-              class="h-14"
-              alt="NuxtJs"
-            />
-            <span class="dark:text-white">NuxtJs</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://mui.com/static/logo.png"
-              class="h-14"
-              alt="MaterialUI"
-            />
-            <span class="dark:text-white">MaterialUI</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/600px-Tailwind_CSS_Logo.svg.png?20211001194333"
-              class="h-14"
-              alt="Tailwind"
-            />
-            <span class="dark:text-white">Tailwind</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png"
-              class="h-14"
-              alt="Bootstrap"
-            />
-            <span class="dark:text-white">Bootstrap</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/130px-HTML5_logo_and_wordmark.svg.png"
-              alt="HTML5"
-              class="h-14"
-            />
-            <span class="dark:text-white">HTML5</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png"
-              class="h-14"
-              alt="CSS"
-            />
-            <span class="dark:text-white">CSS</span>
-          </div>
-        </div>
-      </div>
-      <div
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-delay="400"
-        class="lg:w-1/3 md:w-96 md:m-auto md:mb-16 card bg-white drop-shadow-2xl dark:bg-slate-800"
-      >
-        <h2 class="pt-7 pl-5 flex items-center">
-          <font-awesome-icon
-            class="fa-2xl pr-3 f-blue w-20"
-            :icon="['fas', 'code-branch']"
-          />
-          <div class="flex flex-col">
-            <h2 class="text-xl dark:text-white">Backend Developer</h2>
-            <span class="text-sm f-gray dark:text-white"
-              >More than 4 years</span
-            >
-          </div>
-        </h2>
-        <div
-          class="description grid grid-cols-4 gap-4 m-auto lg:px-10 px-5 pt-10"
-        >
-          <div class="p-1 card-mini">
-            <img
-              src="https://www.freepnglogos.com/uploads/javascript-png/javascript-nodejs-logo-27.png"
-              class="h-14"
-              alt="Node"
-            />
-            <span class="dark:text-white">Node.js</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://www.freepnglogos.com/uploads/javascript-png/javascript-nodejs-logo-27.png"
-              class="h-14"
-              alt="Express"
-            />
-            <span class="dark:text-white">Express.js</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
-              class="h-14"
-              alt="PHP"
-            />
-            <span class="dark:text-white">PHP</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-part-azure-sql-database-with-azure-active-directory-17.png"
-              class="h-14"
-              alt="NoSQL"
-            />
-            <span class="dark:text-white">NoSQL</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
-              class="h-14"
-              alt="Mysql"
-            />
-            <span class="dark:text-white">Mysql</span>
-          </div>
-        </div>
-      </div>
-      <div
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-delay="600"
-        class="lg:w-1/3 md:w-96 md:m-auto md:mb-16 card bg-white drop-shadow-2xl dark:bg-slate-800"
-      >
-        <h2 class="pt-7 pl-5 flex items-center">
-          <font-awesome-icon
-            class="fa-2xl pr-3 f-blue w-20"
-            :icon="['fas', 'brain']"
-          />
-          <div class="flex flex-col">
-            <h2 class="text-xl dark:text-white">Others</h2>
-            <span class="text-sm f-gray dark:text-white">Acquired Skills</span>
-          </div>
-        </h2>
-        <div
-          class="description grid grid-cols-4 gap-4 m-auto lg:px-10 px-5 pt-10"
-        >
-          <div class="p-1 card-mini">
-            <img
-              src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png"
-              class="h-14"
-              alt="Git"
-            />
-            <span class="dark:text-white">Git</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png"
-              class="h-14"
-              alt="Jira"
-            />
-            <span class="dark:text-white">Jira</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_A4ygFZawvqLFvYUYfssFpgwAfCGZ7Xs_Ka4hDnmgA&s"
-              class="h-14"
-              alt="AWS"
-            />
-            <span class="dark:text-white">AWS</span>
-          </div>
-          <div class="p-1 card-mini">
-            <img
-              src="https://seeklogo.com/images/D/docker-logo-CF97D0124B-seeklogo.com.png"
-              class="h-14"
-              alt="Docker"
-            />
-            <span class="dark:text-white">Docker</span>
+          <div v-for="skill in group.skills" :key="skill.name" class="p-1 card-mini">
+            <div class="h-9 flex items-center justify-center">
+              <img
+                v-if="skill.icon"
+                :src="skill.icon"
+                :alt="skill.name"
+                class="skill-logo h-8"
+              />
+              <font-awesome-icon
+                v-else
+                :icon="['fas', skill.fa]"
+                class="text-2xl dark:text-white"
+              />
+            </div>
+            <span class="dark:text-white">{{ skill.name }}</span>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import javascript from "@/assets/img/skills/javascript.svg";
+import typescript from "@/assets/img/skills/typescript.svg";
+import php from "@/assets/img/skills/php.svg";
+import react from "@/assets/img/skills/react.svg";
+import reactnative from "@/assets/img/skills/reactnative.svg";
+import vuejs from "@/assets/img/skills/vuejs.svg";
+import nextjs from "@/assets/img/skills/nextjs.svg";
+import nodejs from "@/assets/img/skills/nodejs.svg";
+import express from "@/assets/img/skills/express.svg";
+import mysql from "@/assets/img/skills/mysql.svg";
+import mongodb from "@/assets/img/skills/mongodb.svg";
+import aws from "@/assets/img/skills/aws.svg";
+import docker from "@/assets/img/skills/docker.svg";
+import git from "@/assets/img/skills/git.svg";
+
+type Skill = {
+  name: string;
+  icon?: string;
+  fa?: string;
+};
+
+type SkillGroup = {
+  title: string;
+  fa: string;
+  skills: Skill[];
+};
+
+const groups: SkillGroup[] = [
+  {
+    title: "Programming",
+    fa: "code",
+    skills: [
+      { name: "JavaScript", icon: javascript },
+      { name: "TypeScript", icon: typescript },
+      { name: "PHP", icon: php },
+    ],
+  },
+  {
+    title: "Frontend",
+    fa: "display",
+    skills: [
+      { name: "React", icon: react },
+      { name: "React Native", icon: reactnative },
+      { name: "Vue.js", icon: vuejs },
+      { name: "Next.js", icon: nextjs },
+    ],
+  },
+  {
+    title: "Backend & APIs",
+    fa: "server",
+    skills: [
+      { name: "Node.js", icon: nodejs },
+      { name: "Express.js", icon: express },
+      { name: "REST APIs", fa: "arrows-rotate" },
+      { name: "API Integration", fa: "plug" },
+    ],
+  },
+  {
+    title: "Databases",
+    fa: "database",
+    skills: [
+      { name: "SQL", fa: "table" },
+      { name: "MySQL", icon: mysql },
+      { name: "NoSQL", icon: mongodb },
+    ],
+  },
+  {
+    title: "Cloud & DevOps",
+    fa: "cloud",
+    skills: [
+      { name: "AWS", icon: aws },
+      { name: "Docker", icon: docker },
+      { name: "Git", icon: git },
+      { name: "CI/CD", fa: "rotate" },
+    ],
+  },
+  {
+    title: "Development Practices",
+    fa: "clipboard-check",
+    skills: [
+      { name: "Agile / Scrum", fa: "people-group" },
+      { name: "Code Review", fa: "code-branch" },
+    ],
+  },
+  {
+    title: "AI-Assisted Development",
+    fa: "wand-magic-sparkles",
+    skills: [
+      { name: "BMAD", fa: "diagram-project" },
+      { name: "GitHub Spec Kit", fa: "file-code" },
+      { name: "AI Workflows", fa: "robot" },
+    ],
+  },
+];
+</script>
+
+<style lang="scss" scoped>
+/* Logos are single-path black SVGs, so a neutral black -> white flip is
+   all that dark mode needs. No hue shifting, so brand silhouettes stay true. */
+.dark .skill-logo {
+  filter: invert(1);
+}
+
+/* The global .card-mini hover scales 1.3, which overlaps inside a 2-column
+   chip grid. Tone it down for this layout. */
+.card-mini:hover {
+  transform: scale(1.08);
+}
+</style>

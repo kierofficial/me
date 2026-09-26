@@ -25,12 +25,12 @@
         data-aos-delay="800"
         data-aos-duration="500"
       >
-        I'm a seasoned full-stack software developer passionate about crafting innovative, impactful solutions. Fluent in modern tech stacks, I specialize in building responsive, user-friendly applications that address real-world needs. With strong skills in JavaScript (React/VueJS) on the front end and extensive backend experience in Express and PHP, I bring both reliability and creativity to every project.
+        Full Stack Software Engineer with 7+ years of experience building scalable web applications and backend services. Experienced in Node.js, PHP, TypeScript, JavaScript, React, React Native, Vue, Express, SQL, REST APIs, AWS, Docker, Git, and Jira. Skilled in developing reliable, maintainable solutions across both frontend and backend systems.
       </h5>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
           class="btn-accent cursor-pointer flex items-center"
-          href="mailto:kirochan.kd@gmail.com"
+          href="mailto:khierdeleon@gmail.com"
         >
           <span> Contact Me&nbsp;</span>
           <span

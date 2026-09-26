@@ -22,7 +22,7 @@
       data-aos-duration="500"
     >
       <button class="button dark:text-white dark:border-white w-36">
-        <a href="mailto:kirochan.kd@gmail.com">Say Hi</a>
+        <a href="mailto:khierdeleon@gmail.com">Say Hi</a>
       </button>
     </div>
   </div>

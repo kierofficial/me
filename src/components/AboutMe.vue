@@ -40,19 +40,15 @@
         >
           <div class="years-exp mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              5+
+              7+
             </h2>
-            <span class="text-sm f-gray dark:text-white"
-              >Years of Experience</span
-            >
+            <span class="text-sm f-gray dark:text-white">Years of Experience</span>
           </div>
           <div class="projects mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              8+
+              10+
             </h2>
-            <span class="text-sm f-gray dark:text-white"
-              >Completed projects</span
-            >
+            <span class="text-sm f-gray dark:text-white">Completed projects</span>
           </div>
           <div class="companies-worked mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
